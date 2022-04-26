@@ -24,7 +24,7 @@ Currently, this script is already setup to audit any election, with any number o
 ## Robustness and Flexibility
 - Currently, the script has the name of the election input and output files hard-coded.  Instead, creating a main(argv) function and giving the option to pass the input file path as an argument could make the code easier to run on different files, should there be multiple elections.
 - The output file could be named based on the input file, assuming that the data is better named than "election_results.csv" - perhaps "senate_election_2022_results.csv".
-- Additional columns in the *.csv* file won't actually affect the functionality of the current code, as long as the county remains at the second index and the candidate remains at the third index.  However, using the names in the header to determine which column is which, rather than just indices '1' or '2,' could be a handy way of determining flexibility, in case the column order or numbering of the *.csv* changes in the future.
+- Additional columns in the *.csv* file won't actually affect the functionality of the current code, as long as the county remains at the second index and the candidate remains at the third index.  However, using pre-set names in the header to determine which column is which, rather than just indices '1' or '2,' could be a handy way of determining flexibility, in case the column order or numbering of the *.csv* changes in the future.
 
 ## Additional Features
 - Automatically sorting the counties and candidates by descending numbers of votes in the results would be a sensible adjustment to make, rather than simply by the order in the *.csv* file.
