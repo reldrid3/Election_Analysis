@@ -1,5 +1,5 @@
 # Overview of the Election Audit
-The purpose of this election audit is to tally up all the votes by county and by candidate, to find out which counties had the most votes cast as well as which candidate has won the election.  Votes are supplied in *.csv* format, and a simple Python script will be able to read in the data, perform the calculations and output the final results both in real time to the console as well to a text file.
+The purpose of this election audit is to tally up all the votes by county and by candidate, to find out which counties had the most votes cast as well as which candidate has won the election.  Votes are supplied in *.csv* format, and a simple Python [script](PyPoll_Challenge.py) will be able to read in the data, perform the calculations and output the final results both in real time to the console as well to a text file.
 
 # Election Audit Results
 - The total turnout for all counties was **369,711** votes
