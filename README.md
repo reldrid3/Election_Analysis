@@ -28,5 +28,5 @@ Currently, this script is already setup to audit any election, with any number o
 
 ## Additional Features
 - Automatically sorting the counties and candidates by descending numbers of votes in the results would be a sensible adjustment to make, rather than simply by the order in the *.csv* file.
-- If additional columns were added, we could also tally votes by individual town, whether the vote was cast in person or via mail-in ballot, etc.
-- Additional statistics could be performed as well, calculating the performance of candidates in particular counties and outputting those in a table.
+- If additional columns were added, we could also tally votes by individual town, whether the vote was cast in person, via mail-in ballot, etc.
+- Additional statistics could be performed as well, calculating the performance of candidates in particular counties and outputting to a table.
